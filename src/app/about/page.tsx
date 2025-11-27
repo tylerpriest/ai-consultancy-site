@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Shield, Target, Users, Zap, CheckCircle, MapPin, Mail, Linkedin } from "lucide-react";
+import { ArrowRight, Shield, Target, Users, Zap, CheckCircle, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -271,7 +271,7 @@ export default function About() {
             <CardHeader className="text-center">
               <CardTitle className="text-2xl">Ready to work with us?</CardTitle>
               <CardDescription className="text-base">
-                Whether you're just starting to explore AI or ready to scale existing implementations, 
+                Whether you&apos;re just starting to explore AI or ready to scale existing implementations, 
                 our team is here to help you succeed.
               </CardDescription>
             </CardHeader>

@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { z } from 'zod';
-import { CheckCircle, ArrowRight, Clock, Target, Users, Database, Shield, Zap } from "lucide-react";
+import { CheckCircle, ArrowRight, Target, Users, Database, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -43,8 +43,6 @@ export default function AuditPage() {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
-    reset,
   } = useForm<AuditFormData>({
     resolver: zodResolver(auditFormSchema),
   });
@@ -108,7 +106,7 @@ export default function AuditPage() {
               Your AI Readiness Assessment is Complete!
             </h1>
             <p className="text-lg text-gray-600 mb-8">
-              Based on your responses, here's your personalized AI readiness score and recommendations.
+              Based on your responses, here&apos;s your personalized AI readiness score and recommendations.
             </p>
           </div>
 
@@ -132,7 +130,7 @@ export default function AuditPage() {
               <CardHeader>
                 <CardTitle>Recommended Next Steps</CardTitle>
                 <CardDescription>
-                  Based on your assessment, here's what we recommend:
+                  Based on your assessment, here&apos;s what we recommend:
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -190,7 +188,7 @@ export default function AuditPage() {
             AI Readiness Audit
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            Discover your organization's AI readiness with our comprehensive 12-question assessment. 
+            Discover your organization&apos;s AI readiness with our comprehensive 12-question assessment. 
             Get personalized recommendations and a 30-minute consultation with our experts.
           </p>
           
@@ -417,7 +415,7 @@ export default function AuditPage() {
               <CardContent className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    What's your team's current AI/tech skill level?
+                    What&apos;s your team&apos;s current AI/tech skill level?
                   </label>
                   <div className="space-y-2">
                     {[
@@ -441,7 +439,7 @@ export default function AuditPage() {
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    What's your approximate budget range for AI implementation?
+                    What&apos;s your approximate budget range for AI implementation?
                   </label>
                   <div className="space-y-2">
                     {[
@@ -467,7 +465,7 @@ export default function AuditPage() {
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    What's your ideal timeline for implementation?
+                    What&apos;s your ideal timeline for implementation?
                   </label>
                   <div className="space-y-2">
                     {[
@@ -509,7 +507,7 @@ export default function AuditPage() {
               <CardContent className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    What's your primary goal for AI implementation?
+                    What&apos;s your primary goal for AI implementation?
                   </label>
                   <div className="space-y-2">
                     {[
@@ -584,7 +582,7 @@ export default function AuditPage() {
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    What's your biggest challenge or concern about AI implementation?
+                    What&apos;s your biggest challenge or concern about AI implementation?
                   </label>
                   <textarea
                     {...register('biggestChallenge')}
@@ -623,7 +621,7 @@ export default function AuditPage() {
 
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-3">
-                    What's your organization's risk tolerance for new technology?
+                    What&apos;s your organization&apos;s risk tolerance for new technology?
                   </label>
                   <div className="space-y-2">
                     {[

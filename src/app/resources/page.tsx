@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, FileText, Calculator, Video, CheckSquare, Download, Play, ExternalLink, Clock, Users } from "lucide-react";
+import { ArrowRight, FileText, Calculator, Video, CheckSquare, Play, Clock, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 
@@ -176,7 +176,7 @@ export default function Resources() {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2">
-                    <h4 className="font-medium text-gray-900 text-sm">What's included:</h4>
+                    <h4 className="font-medium text-gray-900 text-sm">What&apos;s included:</h4>
                     <ul className="space-y-1">
                       {resource.features.slice(0, 3).map((feature) => (
                         <li key={feature} className="flex items-start text-xs text-gray-600">

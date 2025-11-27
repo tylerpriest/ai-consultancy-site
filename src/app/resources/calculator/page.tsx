@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Calculator, TrendingUp, Clock, DollarSign, Users, Download, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -417,7 +417,7 @@ Contact us: hello@ai-consultancy.com
                     Enter Your Details
                   </h3>
                   <p className="text-gray-600">
-                    Fill out the form on the left and click "Calculate ROI" to see your potential return on investment.
+                    Fill out the form on the left and click &quot;Calculate ROI&quot; to see your potential return on investment.
                   </p>
                 </CardContent>
               </Card>
