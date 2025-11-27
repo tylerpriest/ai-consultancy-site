@@ -2,8 +2,8 @@
 
 declare global {
   interface Window {
-    gtag?: (...args: any[]) => void;
-    dataLayer?: any[];
+    gtag?: (...args: unknown[]) => void;
+    dataLayer?: unknown[];
   }
 }
 
@@ -46,7 +46,7 @@ export const trackButtonClick = (buttonName: string, location?: string) => {
   });
 };
 
-export const trackFormSubmit = (formName: string, data?: any) => {
+export const trackFormSubmit = (formName: string) => {
   event('form_submit', {
     event_category: 'conversion',
     event_label: formName,
@@ -84,7 +84,7 @@ export const trackAuditComplete = (score: number) => {
   });
 };
 
-export const trackROICalculation = (roiData: any) => {
+export const trackROICalculation = (roiData: { roiPercentage: number }) => {
   event('roi_calculation', {
     event_category: 'engagement',
     event_label: 'roi_calculator',
