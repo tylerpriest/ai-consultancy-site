@@ -18,7 +18,7 @@ export default function Services() {
             End-to-end AI services tailored to your stage
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Whether you're testing AI potential, scaling operations, or need ongoing optimization — we meet you where you are.
+            Whether you&apos;re testing AI potential, scaling operations, or need ongoing optimization — we meet you where you are.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function Services() {
               <CardHeader>
                 <CardTitle className="text-xl">Ready to start?</CardTitle>
                 <CardDescription>
-                  Let's identify your best first AI use case and get it deployed in two weeks.
+                  Let&apos;s identify your best first AI use case and get it deployed in two weeks.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -299,7 +299,7 @@ export default function Services() {
               Not sure which service fits your needs?
             </h2>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Book a 20-minute fit call and we'll help you choose the right approach based on your goals, 
+              Book a 20-minute fit call and we&apos;ll help you choose the right approach based on your goals, 
               timeline, and current AI maturity.
             </p>
             <Button size="lg" asChild>

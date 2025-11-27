@@ -84,7 +84,7 @@ export default function CaseStudies() {
             Real outcomes, not just demos.
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            See how we've delivered measurable AI results across industries, with detailed metrics 
+            See how we&apos;ve delivered measurable AI results across industries, with detailed metrics 
             and insights you can apply to your own business.
           </p>
         </div>
@@ -196,7 +196,7 @@ export default function CaseStudies() {
                 </div>
                 <h3 className="font-semibold mb-2">Human-Centered</h3>
                 <p className="text-sm text-primary-100">
-                  Our solutions augment your team's capabilities rather than replacing them, ensuring smooth adoption.
+                  Our solutions augment your team&apos;s capabilities rather than replacing them, ensuring smooth adoption.
                 </p>
               </div>
               
@@ -221,7 +221,7 @@ export default function CaseStudies() {
             </h2>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
               Every successful AI implementation starts with understanding your unique challenges. 
-              Let's discuss how we can deliver similar results for your business.
+              Let&apos;s discuss how we can deliver similar results for your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild>

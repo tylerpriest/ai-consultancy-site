@@ -293,7 +293,7 @@ compliance experts for advice specific to your organization and jurisdiction.
           </p>
           
           <div className="bg-gray-50 rounded-lg p-6 mb-8">
-            <h3 className="text-lg font-semibold text-gray-900 mb-4">What's Next?</h3>
+            <h3 className="text-lg font-semibold text-gray-900 mb-4">What&apos;s Next?</h3>
             <ul className="text-left space-y-2 max-w-md mx-auto">
               <li className="flex items-start">
                 <CheckCircle className="h-4 w-4 text-accent-500 mr-2 mt-0.5 flex-shrink-0" />
@@ -358,7 +358,7 @@ compliance experts for advice specific to your organization and jurisdiction.
           {/* What's Included */}
           <div className="space-y-6">
             <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">What's Included</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">What&apos;s Included</h2>
               <div className="space-y-4">
                 {[
                   {
@@ -541,8 +541,8 @@ compliance experts for advice specific to your organization and jurisdiction.
             <Card className="mt-6 bg-gray-50">
               <CardContent className="pt-6">
                 <blockquote className="text-sm text-gray-600 italic mb-3">
-                  "This checklist saved us months of research and helped us avoid major compliance issues. 
-                  It's now our standard for every AI project."
+                  &quot;This checklist saved us months of research and helped us avoid major compliance issues.
+                  It&apos;s now our standard for every AI project.&quot;
                 </blockquote>
                 <cite className="text-sm font-medium text-gray-900">
                   Sarah Johnson, VP of Data Science, TechCorp

@@ -192,7 +192,7 @@ export default function Solutions() {
               Need something custom?
             </h2>
             <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              Every business is unique. If our pre-built solutions don't fit your exact needs, 
+              Every business is unique. If our pre-built solutions don&apos;t fit your exact needs, 
               we can build custom AI agents tailored to your specific workflows.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -164,7 +164,7 @@ export default function WebinarsPage() {
             Registration Confirmed!
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            You're all set for the webinar. You'll receive a calendar invite and joining instructions via email shortly.
+            You&apos;re all set for the webinar. You&apos;ll receive a calendar invite and joining instructions via email shortly.
           </p>
           
           <div className="bg-gray-50 rounded-lg p-6 mb-8">

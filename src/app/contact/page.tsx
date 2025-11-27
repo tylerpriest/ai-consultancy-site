@@ -63,7 +63,7 @@ export default function Contact() {
             Thank you for reaching out!
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            We've received your message and will get back to you within 24 hours. 
+            We&apos;ve received your message and will get back to you within 24 hours. 
             Our team is excited to discuss how we can help with your AI implementation.
           </p>
           <div className="space-y-4">
@@ -71,9 +71,9 @@ export default function Contact() {
               <strong>Next steps:</strong>
             </p>
             <ul className="text-sm text-gray-600 space-y-2 text-left max-w-md mx-auto">
-              <li>• We'll review your requirements and prepare recommendations</li>
+              <li>• We&apos;ll review your requirements and prepare recommendations</li>
               <li>• One of our experts will contact you to schedule a call</li>
-              <li>• We'll provide a customized approach for your specific needs</li>
+              <li>• We&apos;ll provide a customized approach for your specific needs</li>
             </ul>
           </div>
         </div>
@@ -87,10 +87,10 @@ export default function Contact() {
         {/* Header */}
         <div className="mx-auto max-w-2xl text-center mb-16">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Ready to unlock AI's potential?
+            Ready to unlock AI&apos;s potential?
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Tell us about your business challenge and we'll show you how AI can solve it. 
+            Tell us about your business challenge and we&apos;ll show you how AI can solve it. 
             All consultations are free and confidential.
           </p>
         </div>
@@ -102,7 +102,7 @@ export default function Contact() {
               <CardHeader>
                 <CardTitle className="text-xl">Get started today</CardTitle>
                 <CardDescription>
-                  Fill out the form below and we'll get back to you within 24 hours.
+                  Fill out the form below and we&apos;ll get back to you within 24 hours.
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -291,7 +291,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="font-medium text-gray-900 text-sm">Initial consultation (30 min)</p>
-                        <p className="text-xs text-gray-600">We'll discuss your challenges and explore potential solutions</p>
+                        <p className="text-xs text-gray-600">We&apos;ll discuss your challenges and explore potential solutions</p>
                       </div>
                     </div>
                     <div className="flex items-start">
